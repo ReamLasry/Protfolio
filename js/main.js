@@ -62,7 +62,7 @@ function projectsRender() {
     }).join('');
 
     var $elProjects = $('.projects');
-    var $elModals = $('.modals-container');
+    var $elModals = $('.projects-container');
 
     $elProjects.html(strHTMLs);
     $elModals.html(strHTMLsModals);
