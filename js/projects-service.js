@@ -41,3 +41,10 @@ function projectsForDisplay() {
     })
     return displayProjects;
 }
+
+function getProjectFromId(projectId) {
+    var project = gProjects.find(function(project) {
+        return project.id === projectId;
+    })
+    return project;
+}
